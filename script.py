@@ -9,25 +9,25 @@ from arcgis.features.analysis import interpolate_points
 
 # API URLs for Weather and Air Quality
 weather_urls = [
-    "https://api.openweathermap.org/data/2.5/weather?lat=5.4636898&lon=-74.6501244&appid=4b8fc198ba3b9d196c707d6f663b274e",
-    "https://api.openweathermap.org/data/2.5/weather?lat=5.755758850999623&lon=-74.62678180957127&appid=4b8fc198ba3b9d196c707d6f663b274e",
-    "https://api.openweathermap.org/data/2.5/weather?lat=5.471854056255329&lon=-74.59601949154832&appid=4b8fc198ba3b9d196c707d6f663b274e",
-    "https://api.openweathermap.org/data/2.5/weather?lat=5.7465651257591865&lon=-74.51680756910774&appid=4b8fc198ba3b9d196c707d6f663b274e",
-    "https://api.openweathermap.org/data/2.5/weather?lat=5.629145047931948&lon=-74.58252185001554&appid=4b8fc198ba3b9d196c707d6f663b274e",
-    "https://api.openweathermap.org/data/2.5/weather?lat=5,6618&lon=-74,5264&appid=4b8fc198ba3b9d196c707d6f663b274e",
-    "https://api.openweathermap.org/data/2.5/weather?lat=5.5707564524864175&lon=-74.61515311188553&appid=4b8fc198ba3b9d196c707d6f663b274e",
-    "https://api.openweathermap.org/data/2.5/weather?lat=5.679725712726425&lon=-74.61971546924745&appid=4b8fc198ba3b9d196c707d6f663b274e",
-    "https://api.openweathermap.org/data/2.5/weather?lat=5.778461317941011&lon=-74.69841613285665&appid=4b8fc198ba3b9d196c707d6f663b274e",
-    "https://api.openweathermap.org/data/2.5/weather?lat=5.610487194080601&lon=-74.51021889167716&appid=4b8fc198ba3b9d196c707d6f663b274e"
+    "https://api.openweathermap.org/data/2.5/weather?lat=5.4636898&lon=-74.6501244&appid=",
+    "https://api.openweathermap.org/data/2.5/weather?lat=5.755758850999623&lon=-74.62678180957127&appid=",
+    "https://api.openweathermap.org/data/2.5/weather?lat=5.471854056255329&lon=-74.59601949154832&appid=",
+    "https://api.openweathermap.org/data/2.5/weather?lat=5.7465651257591865&lon=-74.51680756910774&appid=",
+    "https://api.openweathermap.org/data/2.5/weather?lat=5.629145047931948&lon=-74.58252185001554&appid=",
+    "https://api.openweathermap.org/data/2.5/weather?lat=5,6618&lon=-74,5264&appid=",
+    "https://api.openweathermap.org/data/2.5/weather?lat=5.5707564524864175&lon=-74.61515311188553&appid=",
+    "https://api.openweathermap.org/data/2.5/weather?lat=5.679725712726425&lon=-74.61971546924745&appid=",
+    "https://api.openweathermap.org/data/2.5/weather?lat=5.778461317941011&lon=-74.69841613285665&appid=",
+    "https://api.openweathermap.org/data/2.5/weather?lat=5.610487194080601&lon=-74.51021889167716&appid="
     
 ]
 
 air_quality_urls = [
-    "https://api.openweathermap.org/data/2.5/air_pollution?lat=5.4636898&lon=-74.6501244&appid=4b8fc198ba3b9d196c707d6f663b274e",
-    "https://api.openweathermap.org/data/2.5/air_pollution?lat=5.755758850999623&lon=-74.62678180957127&appid=4b8fc198ba3b9d196c707d6f663b274e",
-    "https://api.openweathermap.org/data/2.5/air_pollution?lat=5.471854056255329&lon=-74.59601949154832&appid=4b8fc198ba3b9d196c707d6f663b274e",
-    "https://api.openweathermap.org/data/2.5/air_pollution?lat=5.7465651257591865&lon=-74.51680756910774&appid=4b8fc198ba3b9d196c707d6f663b274e",
-    "https://api.openweathermap.org/data/2.5/air_pollution?lat=5.629145047931948&lon=-74.58252185001554&appid=4b8fc198ba3b9d196c707d6f663b274e"
+    "https://api.openweathermap.org/data/2.5/air_pollution?lat=5.4636898&lon=-74.6501244&appid=",
+    "https://api.openweathermap.org/data/2.5/air_pollution?lat=5.755758850999623&lon=-74.62678180957127&appid=",
+    "https://api.openweathermap.org/data/2.5/air_pollution?lat=5.471854056255329&lon=-74.59601949154832&appid=",
+    "https://api.openweathermap.org/data/2.5/air_pollution?lat=5.7465651257591865&lon=-74.51680756910774&appid=",
+    "https://api.openweathermap.org/data/2.5/air_pollution?lat=5.629145047931948&lon=-74.58252185001554&appid="
 ]
 
 # Layer schemas
